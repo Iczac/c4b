@@ -9,7 +9,7 @@ export default () => (
       align="middle"
       justify="center"
       style={{
-        marginTop: '25%',
+        marginTop: '22%',
       }}
     >
       <Col
