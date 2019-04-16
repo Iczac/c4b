@@ -56,10 +56,11 @@ typings/
 
 # gatsby files
 .cache/
-public
 
 # Mac files
 .DS_Store
+
+public/static/d
 
 # Yarn
 yarn-error.log
