@@ -1,7 +1,14 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "react-app"
+  ],
   "env": {
     "browser": true,
     "node": true
+  },
+  "rules": {
+    "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/jsx-one-expression-per-line": [0, { "allow": "none"}]
   }
 }
