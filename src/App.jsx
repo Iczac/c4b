@@ -41,7 +41,7 @@ App.propTypes = {
 };
 
 App.defaultProps = {
-  name: 'Construction in progress',
+  name: 'Under Development',
 };
 
 export default App;
