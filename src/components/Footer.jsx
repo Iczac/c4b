@@ -1,5 +1,12 @@
 import React from 'react';
-import { Row, Col, Icon } from 'antd';
+import {
+  Row,
+  Col,
+  Icon,
+  Typography,
+} from 'antd';
+
+const { Text } = Typography;
 
 const iconSize = 50;
 
@@ -19,6 +26,7 @@ const Footer = () => (
     justify="center"
     style={{
       marginTop: '5%',
+      textAlign: 'center',
     }}
   >
     <Col
@@ -27,9 +35,6 @@ const Footer = () => (
       <Row
         type="flex"
         justify="center"
-        style={{
-          textAlign: 'center',
-        }}
       >
         <Col
           span={6}
@@ -60,6 +65,14 @@ const Footer = () => (
           </a>
         </Col>
       </Row>
+      <br/>
+      <Text>
+        &#34;He who has a why to live can bear almost anyhow&#34;
+      </Text>
+      <br />
+      <Text>
+        - Friedrich Nietzsche
+      </Text>
     </Col>
   </Row>
 );
