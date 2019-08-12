@@ -24,6 +24,7 @@ const Profile = () => (
       <Title
         style={{
           marginBottom: 0,
+          fontWeight: 700,
         }}
       >
         Code4Bread
@@ -32,6 +33,7 @@ const Profile = () => (
         level={4}
         style={{
           marginTop: 0,
+          fontWeight: 500,
         }}
       >
         Pragmatic Developer
