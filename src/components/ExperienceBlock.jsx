@@ -18,12 +18,14 @@ const StyledGrid = Styled(Grid)`
 `;
 
 
-const ExperienceBlock = ({ children, companyName, year }) => (
+const ExperienceBlock = ({
+  children, companyName, year, companyUrl,
+}) => (
   <>
     <Grid container justify="flex-start">
       <Grid item>
         <Typography variant="subtitle1">
-          <StyledCompanyName href="https://synagie.com" rel="noreferrer" target="_blank">
+          <StyledCompanyName href={companyUrl} rel="noreferrer" target="_blank">
             {companyName}
           </StyledCompanyName>
         </Typography>
@@ -50,6 +52,7 @@ const ExperienceBlock = ({ children, companyName, year }) => (
 ExperienceBlock.propTypes = {
   children: PropTypes.node.isRequired,
   companyName: PropTypes.string.isRequired,
+  companyUrl: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
 };
 

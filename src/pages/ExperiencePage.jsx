@@ -25,6 +25,7 @@ const ExperiencePage = () => (
           <ExperienceBlock
             companyName="Beautiful.me"
             year="Mar 2017 - Sep 2018"
+            companyUrl="https://synagie.com/"
           >
             <Typography variant="subtitle2">
               Implemented new features and maintained an E-commerce business solution that handles
@@ -45,6 +46,7 @@ const ExperiencePage = () => (
           <ExperienceBlock
             companyName="BlueMeg"
             year="Oct 2018 – Feb 2020"
+            companyUrl="https://bluemeg.com/"
           >
             <Typography variant="subtitle2">
               Worked on digitized incorporation (SaaS) applications that provides a detail
@@ -66,6 +68,7 @@ const ExperiencePage = () => (
           <ExperienceBlock
             companyName="Biqmind"
             year="Feb 2020 – May 2020"
+            companyUrl="https://biqmind.com/"
           >
             <Typography variant="subtitle2">
               Worked on a positioning software which tracks assigned personnel
