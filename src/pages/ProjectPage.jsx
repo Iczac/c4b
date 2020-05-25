@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import Styled from 'styled-components';
 import ProjectBlock from '../components/ProjectBlock';
 
 const ProjectPage = () => (

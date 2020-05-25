@@ -56,7 +56,7 @@ const ProjectBlock = ({
       </StyledStacks>
     </StyledCardContent>
     <StyledCardActions>
-      <Button size="small" href={gitHubLink} target="_blank" startIcon={<GitHub />}>Github</Button>
+      <Button size="small" href={gitHubLink} target="_blank" rel="noopener noreferrer" startIcon={<GitHub />}>Github</Button>
     </StyledCardActions>
   </Card>
 );
