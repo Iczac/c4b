@@ -4,6 +4,7 @@ import Styled from 'styled-components';
 import Header from './components/Header';
 import MainPage from './pages/MainPage';
 import ExperiencePage from './pages/ExperiencePage';
+import ProjectPage from './pages/ProjectPage';
 
 const StyledBox = Styled(Box)`
   margin-left: 20%;
@@ -18,7 +19,7 @@ const App = () => {
   if (page === 'exp') {
     pageView = <ExperiencePage />;
   } else if (page === 'projects') {
-    pageView = <h1>Hello Projects</h1>;
+    pageView = <ProjectPage />;
   } else {
     pageView = <MainPage />;
   }

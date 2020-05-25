@@ -48,7 +48,7 @@ const ExperienceBlock = ({ children, companyName, year }) => (
 
 
 ExperienceBlock.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   companyName: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
 };
