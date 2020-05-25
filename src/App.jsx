@@ -3,6 +3,7 @@ import { Box } from '@material-ui/core';
 import Styled from 'styled-components';
 import Header from './components/Header';
 import MainPage from './pages/MainPage';
+import ExperiencePage from './pages/ExperiencePage';
 
 const StyledBox = Styled(Box)`
   margin-left: 20%;
@@ -15,7 +16,7 @@ const App = () => {
   let pageView;
 
   if (page === 'exp') {
-    pageView = <h1>Hello Exp</h1>;
+    pageView = <ExperiencePage />;
   } else if (page === 'projects') {
     pageView = <h1>Hello Projects</h1>;
   } else {
