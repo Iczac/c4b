@@ -10,13 +10,19 @@ const StyledGrid = Styled(Grid)`
   margin-bottom: 3%;
 `;
 
+const StyledHeader = Styled(Typography)`
+  && {
+    font-weight: 400;
+  }
+`;
+
 const Header = ({ setPage, page }) => (
   <>
     <Grid container justify="center">
       <Grid item>
-        <Typography variant="h2" align="center">
+        <StyledHeader variant="h2" align="center">
           Code4Bread
-        </Typography>
+        </StyledHeader>
         <Typography variant="h5" align="center">
           A Pragmatic Developer
         </Typography>

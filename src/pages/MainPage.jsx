@@ -50,8 +50,8 @@ const MainPage = () => (
         <Typography variant="subtitle1" align="center">
           Experienced in building web applications using REST APIs and integration
           with third party services. Has worked on SaaS web apps and real-time data driven
-          applications using web-sockets. Skilled in Python, Flask, PHP, Javascript, NodeJS,
-          Meteor, Express, MySQL, MongoDB, AWS.
+          applications using web-sockets. Skilled in Javascript, NodeJS, Express, Prisma, Socket.io,
+          Python, Flask, PHP, Wordpress, MongoDB, MYSQL, AWS, EC2, Elastic Beanstalk, S3.
         </Typography>
       </StyledGridItem>
     </Grid>
