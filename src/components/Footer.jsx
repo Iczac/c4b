@@ -28,10 +28,10 @@ const Footer = () => (
   <>
     <StyledGrid container justify="center">
       <Grid item>
-        <a href="https://www.linkedin.com/in/kaung-myat-htet-khaing/" rel="noreferrer" target="_blank">
+        <a href="https://www.linkedin.com/in/kaung-myat-htet-khaing/" rel="noopener noreferrer" target="_blank">
           <LinkedInIcon component={Linkedin} />
         </a>
-        <a href="https://github.com/code-4-bread/" rel="noreferrer" target="_blank">
+        <a href="https://github.com/code-4-bread/" rel="noopener noreferrer" target="_blank">
           <GithubIcon component={GithubSquare} />
         </a>
       </Grid>
