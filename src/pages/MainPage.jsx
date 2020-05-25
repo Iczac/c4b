@@ -42,6 +42,13 @@ const MainPage = () => (
       </Grid>
     </Grid>
     <Grid container justify="center">
+      <Grid item>
+        <Typography variant="caption">
+          Email - iz@kaungmyat.tech
+        </Typography>
+      </Grid>
+    </Grid>
+    <Grid container justify="center">
       <StyledGridItem item>
         <Typography variant="subtitle1" align="center">
           Software Engineer with 3+ years of Singapore-based experience developing applications
