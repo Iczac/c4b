@@ -5,7 +5,7 @@ import ExperienceBlock from '../components/ExperienceBlock';
 
 const StyledPaper = Styled(Paper)`
   width: 200px;
-  height: 400px;
+  height: 410px;
   padding: 10%;
 `;
 
