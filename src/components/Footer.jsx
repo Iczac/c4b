@@ -1,80 +1,53 @@
 import React from 'react';
-import {
-  Row,
-  Col,
-  Icon,
-  Typography,
-} from 'antd';
+import { Grid, Typography, Icon } from '@material-ui/core';
+import { Linkedin, GithubSquare } from '@styled-icons/fa-brands';
+import Styled from 'styled-components';
 
-const { Text } = Typography;
+const LinkedInIcon = Styled(Icon)`
+  color: #2867B2;
+  margin-right: ${() => (window.innerWidth < 450 ? 0 : '100px')};
+  && {
+    font-size: 5rem;
+  }
+`;
 
-const iconSize = 50;
+const GithubIcon = Styled(Icon)`
+  color: #211f1f;
+  && {
+    font-size: 5rem;
+  }
+`;
 
-const gitHubIconStyle = {
-  fontSize: iconSize,
-  color: '#000000',
-};
 
-const linkedInIconStyle = {
-  fontSize: iconSize,
-  color: '#0077B5',
-};
+const StyledGrid = Styled(Grid)`
+  margin-top: 5%;
+  margin-bottom: 3%;
+`;
 
 const Footer = () => (
-  <Row
-    type="flex"
-    justify="center"
-    style={{
-      marginTop: '5%',
-      textAlign: 'center',
-    }}
-  >
-    <Col
-      span={12}
-    >
-      <Row
-        type="flex"
-        justify="center"
-      >
-        <Col
-          span={6}
-        >
-          <a
-            href="https://www.linkedin.com/in/kaung-myat-htet-khaing/"
-            target="_blank"
-          >
-            <Icon
-              type="linkedin"
-              theme="filled"
-              style={linkedInIconStyle}
-            />
-          </a>
-        </Col>
-        <Col
-          span={6}
-        >
-          <a
-            href="https://github.com/Code4Bread"
-            target="_blank"
-          >
-            <Icon
-              type="github"
-              theme="filled"
-              style={gitHubIconStyle}
-            />
-          </a>
-        </Col>
-      </Row>
-      <br/>
-      <Text>
-        &#34;He who has a why to live can bear almost anyhow&#34;
-      </Text>
-      <br />
-      <Text>
-        - Friedrich Nietzsche
-      </Text>
-    </Col>
-  </Row>
+  <>
+    <StyledGrid container justify="center">
+      <Grid item>
+        <a href="https://www.linkedin.com/in/kaung-myat-htet-khaing/" rel="noreferrer" target="_blank">
+          <LinkedInIcon component={Linkedin} />
+        </a>
+        <a href="https://github.com/code-4-bread/" rel="noreferrer" target="_blank">
+          <GithubIcon component={GithubSquare} />
+        </a>
+      </Grid>
+    </StyledGrid>
+    <Grid container justify="center">
+      <Grid item>
+        <Typography variant="overline">
+          &#34;He who has a why to live can bear almost anyhow&#34;
+        </Typography>
+        <br />
+        <Typography variant="caption">
+          - Friedrich Nietzsche
+        </Typography>
+      </Grid>
+    </Grid>
+  </>
 );
 
 export default Footer;
