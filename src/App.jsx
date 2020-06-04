@@ -7,8 +7,8 @@ import ExperiencePage from './pages/ExperiencePage';
 import ProjectPage from './pages/ProjectPage';
 
 const StyledBox = Styled(Box)`
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: ${window.innerWidth < 450 ? 0 : '20%'};
+  margin-right: ${window.innerWidth < 450 ? 0 : '20%'};
 `;
 
 const App = () => {
