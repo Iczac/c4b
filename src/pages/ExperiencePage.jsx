@@ -12,8 +12,8 @@ const StyledPaper = Styled(Paper)`
 const StyledGrid = Styled(Grid)`
   && {
     margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: ${window.innerWidth < 450 ? 0 : '5%'};
+    margin-right: ${window.innerWidth < 450 ? '10%' : '5%'};
   }
 `;
 
