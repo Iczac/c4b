@@ -32,8 +32,7 @@ const ProjectPage = () => (
           stacks="Python, MongoDB"
           gitHubLink="https://github.com/code-4-bread/Hacker-News-RSS-Feed-Reader"
         >
-          Read HackerNews RSS feed with interval and store articles. Provide CLI features
-          to read and open up in system default browser.
+          Read HackerNews RSS feed with CLI features to read and open up in system default browser.
         </ProjectBlock>
       </Grid>
       <Grid item xs={12} md={5} lg={5}>
