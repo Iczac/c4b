@@ -11,7 +11,7 @@ const ProjectPage = () => (
           stacks="React, NodeJS, Express, Socket.io, MongoDB, Docker"
           gitHubLink="https://github.com/code-4-bread/fate-app"
         >
-          Scrum poker tool for agile planning and estimating efforts.
+          Scrum poker tool for agile planning and estimating efforts, written with React and NodeJS backend.
         </ProjectBlock>
       </Grid>
       <Grid item xs={12} md={5} lg={5}>
